@@ -5,7 +5,7 @@ pipeline {
         stage('CI pipeline – allowed branches') {
             when {
                 anyOf {
-                    branch 'feature/**'
+                    branch 'feature/.+'
                     branch 'main'
                 }
             }
